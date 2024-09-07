@@ -395,7 +395,7 @@ export function GlobeDemo() {
   ];
 
   return (
-    <div className="flex flex-row items-center justify-center py-20 h-screen md:h-auto dark:bg-foreground bg-foreground relative w-full">
+    <div className="flex pt-10 flex-row items-center justify-center py-20 h-screen md:h-auto dark:bg-foreground bg-foreground relative w-full">
       <div className="max-w-7xl mx-auto grid gap-14 w-full relative overflow-hidden h-full md:h-[40rem] px-4">
         <motion.div
           initial={{
@@ -411,15 +411,21 @@ export function GlobeDemo() {
           }}
           className="div"
         >
-          <h2 className="bg-gradient-to-br dark:from-white
+          <h2
+            className="bg-gradient-to-br dark:from-white
        from-black from-30% dark:to-white/40 to-black/40
         bg-clip-text  text-3xl font-medium leading-none 
         tracking-tighter text-transparent text-balance text-center
-         sm:text-3xl md:text-4xl lg:text-5xl p-2">
-           How CredLedger works
+         sm:text-3xl md:text-4xl lg:text-5xl p-2"
+          >
+            How MyLedger works
           </h2>
           <p className="text-center text-base md:text-lg font-normal text-neutral-700 dark:text-neutral-200 max-w-2xl mt-2 mx-auto mb-2 px-2">
-CredLedger transforms traditional resumes into dynamic, verifiable digital portfolios, revolutionizing the presentation and validation of professional credentials online. </p>        </motion.div>
+            MyLedger transforms traditional resumes into dynamic, verifiable
+            digital portfolios, revolutionizing the presentation and validation
+            of professional credentials online.{" "}
+          </p>{" "}
+        </motion.div>
         <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent dark:to-foreground to-foreground z-[2] mb-2" />
         <div className="absolute w-full -bottom-20 h-96 md:h-full z-[1]">
           <World data={sampleArcs} globeConfig={globeConfig} />

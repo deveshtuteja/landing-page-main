@@ -12,14 +12,14 @@ export default function Hero() {
         tracking-tighter text-transparent text-balance text-center
          sm:text-5xl md:text-6xl lg:text-7xl "
       >
-        CredLedger: Blockchain-Based Portfolio Credentials Verification
+        MyLedger: Blockchain-Based Portfolio
       </h1>
       <h3 className="text-lg tracking-tight text-gray-400 md:text-xl text-balance md:w-9/12 w-11/12 mx-auto text-center">
-        Secure, tamper-proof storage and verification of educational qualifications, work experience, and professional achievements using blockchain technology.
+        Secure, tamper-proof storage and verification of educational
+        qualifications, work experience, and professional achievements using
+        blockchain technology.
       </h3>
       <SpringButton text="Get Started" />
-    
-
     </div>
   );
 }
